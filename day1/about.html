@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About QuickNotes</title>
+  </head>
+  <body>
+    <header>
+      <h1>QuickNotes</h1>
+      <p>Capture ideas before they disappear.</p>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>About QuickNotes</h2>
+      <p>
+        QuickNotes is a lightweight web application designed to help you take
+        down and organize thoughts instantly. It keeps your daily tasks clear
+        and accessible without unnecessary clutter.
+      </p>
+
+      <section>
+        <h3>How to use QuickNotes</h3>
+        <ol>
+          <li>Type your thought or task into the input box.</li>
+          <li>Click the Add Note button or hit Enter to submit.</li>
+          <li>Review and manage your saved notes in the list below.</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3>Features</h3>
+        <ul>
+          <li>Fast, lightweight, and clean user interface</li>
+          <li>Real time dynamic note counting</li>
+          <li>Accessible and semantically structured markup</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>Keyboard shortcuts</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Shortcut</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><kbd>Enter</kbd></td>
+              <td>Submit a new note</td>
+            </tr>
+            <tr>
+              <td><kbd>Tab</kbd></td>
+              <td>Move to the next form control</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h3>Send feedback</h3>
+        <form id="feedback-form">
+          <div>
+            <label for="feedback-name">Name</label>
+            <input type="text" id="feedback-name" name="name" required />
+          </div>
+
+          <div>
+            <label for="feedback-email">Email</label>
+            <input type="email" id="feedback-email" name="email" required />
+          </div>
+
+          <div>
+            <label for="feedback-message">Message</label>
+            <textarea
+              id="feedback-message"
+              name="message"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 QuickNotes. Built during Web Foundations.</p>
+    </footer>
+  </body>
+</html>
