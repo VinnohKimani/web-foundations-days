@@ -1,0 +1,7 @@
+# Day 8 Reflection
+
+**The most difficult concept.** For me it was thinking about scale: understanding why a system that works well for one user can fail for a million. At first, estimates like "requests per second" felt abstract. I overcame this by working through the numbers step by step. I turned daily totals into per-second figures, compared normal traffic with peak traffic, and asked which component would break first. Doing this for QuickNotes and then for TicketHub made the idea real. When I saw that the ticket sale was about 575 times busier than a normal day, I understood why caching, queues and a waiting room exist.
+
+**What I would improve in my capstone.** [Replace this sentence with the specific feedback you received, for example "My reviewer said my architecture explanation skipped how single points of failure are avoided."] Based on that feedback, I would revise that section, add concrete numbers and walk through one request step by step, so that each component has a clear reason to exist. I would also add more detail on error handling and on what happens when a component fails.
+
+**What I will learn next.** I want to learn how databases behave under real concurrency, including transaction isolation levels and locking, since preventing double-booking showed me how much depends on them. I also want to practise load testing and monitoring so I can check my estimates against a real running system. After that, I plan to learn how to deploy and scale an application in the cloud with containers and automated pipelines.
