@@ -1,0 +1,54 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #1a1a1a;
+  --btn-bg: #e0e0e0;
+  --btn-text: #1a1a1a;
+  --border-color: #cccccc;
+  --warning-color: orange;
+  --over-color: red;
+}
+
+body.dark {
+  --bg-color: #1e1e1e;
+  --text-color: #f0f0f0;
+  --btn-bg: #333333;
+  --btn-text: #ffffff;
+  --border-color: #444444;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+  margin: 20px;
+}
+
+textarea {
+  width: 100%;
+  max-width: 500px;
+  height: 120px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: var(--btn-bg);
+  color: var(--btn-text);
+  border: 1px solid var(--border-color);
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+/* Character counter states */
+.warning {
+  color: var(--warning-color);
+}
+
+.over {
+  color: var(--over-color);
+  font-weight: bold;
+}
