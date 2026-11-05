@@ -1,12 +1,12 @@
 # Power Learn Project (PLP) — Web & Software Engineering Foundations
 
-A comprehensive repository documenting hands-on projects, assignments, and architectural designs completed during the **Power Learn Project (PLP)** Web Foundations program. 
+A comprehensive repository documenting  projects, assignments, and architectural designs completed during the **Power Learn Project (PLP)** Web Foundations program. 
 
 This repository traces a complete developer progression: from foundational web technologies (HTML5, CSS3, JavaScript) and asynchronous client-server communication, to relational database modeling with SQL, high-scale system capacity planning, and concurrent distributed system architecture.
 
 ---
 
-## 📚 Curriculum & Assignment Overview
+##  Curriculum & Assignment Overview
 
 | Day | Topic / Focus | Core Deliverables & Technologies | Key Highlights |
 | :--- | :--- | :--- | :--- |
@@ -21,7 +21,7 @@ This repository traces a complete developer progression: from foundational web t
 
 ---
 
-## 📂 Day-by-Day Breakdown
+##  Day-by-Day Breakdown
 
 ### 🔹 [Day 1: Semantic HTML5 Structure](./day1/)
 - **Project**: *QuickNotes* (Base HTML)
@@ -90,7 +90,7 @@ This repository traces a complete developer progression: from foundational web t
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```text
 .
@@ -125,35 +125,7 @@ This repository traces a complete developer progression: from foundational web t
 
 ---
 
-## 🚀 Getting Started & Execution
-
-### 1. Web Projects (Days 1, 2, 4, 5)
-Simply open any `index.html` file in your preferred web browser, or use a local development server (such as VS Code Live Server or Python's HTTP server):
-
-```bash
-# Example: Run a quick local server from the root directory
-python3 -m http.server 8000
-```
-Navigate to `http://localhost:8000/day4/index.html` or `http://localhost:8000/day5/index.html`.
-
-### 2. JavaScript Algorithms (Day 3)
-Run the script using [Node.js](https://nodejs.org/) or view the browser console in `day3/index.html`:
-
-```bash
-node day3/scripts.js
-```
-
-### 3. Database & SQL Queries (Day 6)
-Execute the SQL script using [SQLite](https://www.sqlite.org/):
-
-```bash
-# Run schema creation, insertions, and analytical queries in SQLite
-sqlite3 :memory: < day6/school.sql
-```
-
----
-
-## 🛠 Skills & Technologies
+##  Skills & Technologies
 
 - **Frontend Development**: HTML5, CSS3, Flexbox, CSS Custom Properties, Vanilla JavaScript (ES6+), DOM Manipulation, Event Handling.
 - **Asynchronous Programming & APIs**: Fetch API, Promises, Async/Await, RESTful API Design, JSON Data Exchange.
